@@ -1,23 +1,12 @@
-2018-03-05T12:48:27.394+0900	INFO	instance/beat.go:475	Home path: [/home/fakturk/go/src/github.com/fakturk/academicbeat] Config path: [/home/fakturk/go/src/github.com/fakturk/academicbeat] Data path: [/home/fakturk/go/src/github.com/fakturk/academicbeat/data] Logs path: [/home/fakturk/go/src/github.com/fakturk/academicbeat/logs]
-2018-03-05T12:48:27.394+0900	INFO	instance/beat.go:482	Beat UUID: df3b527f-dbde-429e-bf28-2c3f9957dc67
-2018-03-05T12:48:27.394+0900	INFO	instance/beat.go:220	Setup Beat: academicbeat; Version: 7.0.0-alpha1
-2018-03-05T12:48:27.394+0900	INFO	elasticsearch/client.go:145	Elasticsearch url: http://localhost:9200
-2018-03-05T12:48:27.395+0900	INFO	pipeline/module.go:76	Beat name: fakturk-vaio
-2018-03-05T12:48:27.395+0900	INFO	[monitoring]	log/log.go:97	Starting metrics logging every 30s
-2018-03-05T12:48:27.395+0900	INFO	instance/beat.go:309	academicbeat start running.
-2018-03-05T12:48:27.395+0900	INFO	beater/academicbeat.go:35	academicbeat is running! Hit CTRL-C to stop it.
-2018-03-05T12:48:28.396+0900	INFO	beater/academicbeat.go:60	Event sent
-2018-03-05T12:48:29.395+0900	INFO	beater/academicbeat.go:60	Event sent
-2018-03-05T12:48:29.403+0900	INFO	elasticsearch/client.go:690	Connected to Elasticsearch version 6.2.2
-2018-03-05T12:48:29.405+0900	INFO	template/load.go:55	Loading template for Elasticsearch version: 6.2.2
-2018-03-05T12:48:29.439+0900	INFO	template/load.go:89	Elasticsearch template with name 'academicbeat-7.0.0-alpha1' loaded
-2018-03-05T12:48:30.395+0900	INFO	beater/academicbeat.go:60	Event sent
-2018-03-05T12:48:31.396+0900	INFO	beater/academicbeat.go:60	Event sent
-2018-03-05T12:48:32.396+0900	INFO	beater/academicbeat.go:60	Event sent
-2018-03-05T12:48:33.396+0900	INFO	beater/academicbeat.go:60	Event sent
-2018-03-05T12:48:34.396+0900	INFO	beater/academicbeat.go:60	Event sent
-2018-03-05T12:48:35.396+0900	INFO	beater/academicbeat.go:60	Event sent
-2018-03-05T12:48:35.426+0900	INFO	[monitoring]	log/log.go:132	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":20,"time":25},"total":{"ticks":50,"time":63,"value":50},"user":{"ticks":30,"time":38}},"info":{"ephemeral_id":"79dad125-e5f2-408e-a7f4-589811c3665d","uptime":{"ms":8042}},"memstats":{"gc_next":4194304,"memory_alloc":2939104,"memory_total":4459680,"rss":19476480}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":8,"batches":4,"total":8},"read":{"bytes":2036},"type":"elasticsearch","write":{"bytes":5264}},"pipeline":{"clients":0,"events":{"active":0,"published":8,"retry":2,"total":8},"queue":{"acked":8}}},"system":{"cpu":{"cores":4},"load":{"1":1.56,"15":0.47,"5":0.86,"norm":{"1":0.39,"15":0.1175,"5":0.215}}}}}}
-2018-03-05T12:48:35.427+0900	INFO	[monitoring]	log/log.go:133	Uptime: 8.042499854s
-2018-03-05T12:48:35.427+0900	INFO	[monitoring]	log/log.go:110	Stopping metrics logging.
-2018-03-05T12:48:35.427+0900	INFO	instance/beat.go:315	academicbeat stopped.
+2018-03-05T23:06:10.944+0900	INFO	instance/beat.go:475	Home path: [/home/fakturk/go/src/github.com/fakturk/academicbeat] Config path: [/home/fakturk/go/src/github.com/fakturk/academicbeat] Data path: [/home/fakturk/go/src/github.com/fakturk/academicbeat/data] Logs path: [/home/fakturk/go/src/github.com/fakturk/academicbeat/logs]
+2018-03-05T23:06:10.945+0900	INFO	instance/beat.go:482	Beat UUID: df3b527f-dbde-429e-bf28-2c3f9957dc67
+2018-03-05T23:06:10.945+0900	INFO	instance/beat.go:220	Setup Beat: academicbeat; Version: 7.0.0-alpha1
+2018-03-05T23:06:10.945+0900	INFO	elasticsearch/client.go:145	Elasticsearch url: http://localhost:9200
+2018-03-05T23:06:10.945+0900	INFO	pipeline/module.go:76	Beat name: fakturk-vaio
+2018-03-05T23:06:10.945+0900	INFO	[monitoring]	log/log.go:97	Starting metrics logging every 30s
+2018-03-05T23:06:10.945+0900	INFO	instance/beat.go:309	academicbeat start running.
+2018-03-05T23:06:10.945+0900	INFO	beater/academicbeat.go:39	academicbeat is running! Hit CTRL-C to stop it.
+2018-03-05T23:06:12.826+0900	INFO	beater/academicbeat.go:87	Event sent
+2018-03-05T23:06:13.784+0900	INFO	beater/academicbeat.go:87	Event sent
+2018-03-05T23:06:13.830+0900	INFO	elasticsearch/client.go:690	Connected to Elasticsearch version 6.2.2
+2018-03-05T23:06:13.832+0900	INFO	template/load.go:73	Template already exists and will not be overwritten.
