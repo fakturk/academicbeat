@@ -1,0 +1,9 @@
+- key: academicbeat
+  title: academicbeat
+  description:
+  fields:
+    - name: counter
+      type: long
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION

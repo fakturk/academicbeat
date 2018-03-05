@@ -1,0 +1,5 @@
+= Academicbeat Docs
+
+Welcome to the Academicbeat documentation.
+
+
